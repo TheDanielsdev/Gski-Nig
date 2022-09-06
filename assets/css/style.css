@@ -381,25 +381,29 @@ header {
   .slider-captions {
     bottom: 100px !important; }
 
-  /* width: 90%;
-  text-align: center;
-  float: none;
-  margin: auto; */
+ 
   .slider-captions .slider-title {
-    font-size: 42px; } }
+    font-size: 40px; 
+    width: 80%;
+    text-align: center;
+    float: none;
+    margin: auto;} }
 @media screen and (max-width: 810px) {
   .slider-captions {
     bottom: 50px !important; }
 
   .slider-captions .slider-title {
+    width: -50%;
+    letter-spacing: 0px;
+    font-weight: 400;
     font-size: 32px; } }
 @media screen and (max-width: 572px) {
   .slider-captions {
 
     /* for the slider text visibility */
-    display: none; } }
+    display: block; } }
 .slider-title {
-  font-size: 66px;
+  font-size: 60px;
   font-weight: 600;
   color: #fff;
   letter-spacing: -3px; }
@@ -411,7 +415,7 @@ header {
 .slider-img {
   background: -moz-linear-gradient(top, rgba(45, 32, 44, 0.3) 0%, rgba(45, 32, 44, 0.1) 100%);
   background: -webkit-linear-gradient(top, rgba(45, 32, 44, 0.3) 0%, rgba(45, 32, 44, 0.1) 100%);
-  background: linear-gradient(to bottom, rgba(45, 32, 44, 0.3) 0%, rgba(45, 32, 44, 0.1) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(10, 9, 10, 0.1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cc1b2429', endColorstr='#cc1b2429', GradientType=0);
   position: relative; }
 
