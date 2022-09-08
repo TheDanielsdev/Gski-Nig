@@ -86,7 +86,7 @@ p {
   padding: 0px; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #545454; }
+  color: #012768; }
 
 body {
   background-color: #f1f1f145 !important;
@@ -160,11 +160,11 @@ body {
       background-size: auto; } }
   @media screen and (max-width: 767px) {
     .page-nav {
-      padding-top: 200px;
-      padding-bottom: 40px; } }
+      padding-top: 50px;
+      padding-bottom: 50px; } }
   @media screen and (max-width: 356px) {
     .page-nav {
-      padding-top: 200px;
+      padding-top: 40px;
       padding-bottom: 40px; } }
   .page-nav h2 {
     font-size: 28px;
@@ -390,13 +390,13 @@ header {
     margin: auto;} }
 @media screen and (max-width: 810px) {
   .slider-captions {
-    bottom: 50px !important; }
+    bottom: 35px !important; }
 
   .slider-captions .slider-title {
     width: -50%;
     letter-spacing: 0px;
     font-weight: 400;
-    font-size: 32px; } }
+    font-size: 28px; } }
 @media screen and (max-width: 572px) {
   .slider-captions {
 
@@ -430,7 +430,7 @@ header {
   zoom: 1;
   margin: 5px;
   padding: 6px 12px;
-  font-size: 22px;
+  font-size: 15px;
   -webkit-border-radius: 23px;
   -moz-border-radius: 23px;
   border-radius: 23px;
@@ -503,13 +503,21 @@ header {
     font-weight: 600;
     font-size: 1.8rem;
     margin-bottom: 20px; }
-  .about-us .text-part p {
+  .about-us .text-part p  {
     text-indent: 20px;
     margin-bottom: 15px;
     line-height: 27px;
     font-weight: 500;
     text-align: justify;
     font-size: .9rem; }
+    .about-us .text-part ul li {
+      
+    
+    line-height: 27px;
+    font-weight: 500;
+    text-align: justify;
+    font-size: .9rem;
+    }
   .about-us .image-part .about-quick-box .about-qcard {
     padding: 50px 30px;
     background-color: #FFF;
@@ -622,7 +630,7 @@ header {
   padding: 15px; }
 
 .our-blog .single-blog small {
-  color: var(--clr-secondary);
+  color: #012768;
   font-size: 12px; }
 
 .our-blog .single-blog h4 {
